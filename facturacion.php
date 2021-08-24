@@ -23,6 +23,20 @@
 
 
   <div class="container">
+    <ul class="nav mt-2">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Facturación</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Administración</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="categorias/administracion.html">Mantenimiento de categorías</a>
+          <a class="dropdown-item" href="productos/administracion.html">Mantenimiento de productos</a>
+          <a class="dropdown-item" href="clientes/administracion.html">Mantenimiento de clientes</a>
+        </div>
+      </li>
+    </ul>
+    
     <div class="row mt-4">
       <div class="col-md">
 
