@@ -48,11 +48,11 @@
     $filas = mysqli_fetch_all($consulta, MYSQLI_ASSOC);
 
     ?> <br>
-    <h1>Facturas emitidas</h1>
+    <h1>Facturas Generadas</h1>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>Factura</th>
+          <th>N° Factura</th>
           <th>Cliente</th>
           <th>Fecha</th>
           <th class="text-right">Importe</th>
@@ -78,7 +78,7 @@
         ?>
       </tbody>
     </table>
-    <button type="button" id="btnNuevaFactura" class="btn btn-success">Emitir factura</button>
+    <button type="button" id="btnNuevaFactura" class="btn btn-success">Generar factura</button>
   </div>
 
   <!-- ModalConfirmarBorrar -->
