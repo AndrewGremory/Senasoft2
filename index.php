@@ -47,7 +47,7 @@
 
     $filas = mysqli_fetch_all($consulta, MYSQLI_ASSOC);
 
-    ?>
+    ?> <br>
     <h1>Facturas emitidas</h1>
     <table class="table table-striped">
       <thead>
