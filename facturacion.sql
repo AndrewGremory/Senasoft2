@@ -22,9 +22,12 @@ CREATE TABLE `categorias` (
 
 /*Data for the table `categorias` */
 
-insert into `categorias` values 
-(1,'Microprocesadores'),
-(2,'Discos Sólidos SSD'),
+insert into `categorias` values 
+
+(1,'Microprocesadores'),
+
+(2,'Discos Solidos SSD'),
+
 (3,'Placas De Video');
 
 /*Table structure for table `clientes` */
@@ -42,9 +45,12 @@ CREATE TABLE `clientes` (
 
 /*Data for the table `clientes` */
 
-insert into `clientes` values 
-(1,'Diego Moisset','23567892','diegomoisset@gmail.com','Colon 345'),
-(2,'Ana Paula','643456644','anapaula@gmail.com','Dean Funes 345'),
+insert into `clientes` values 
+
+(1,'Diego Moisset','23567892','diegomoisset@gmail.com','Colon 345'),
+
+(2,'Ana Paula','643456644','anapaula@gmail.com','Dean Funes 345'),
+
 (3,'Marcos Rodriguez','65984384','marcosrodriguez@gmail.com','23 de septiembre 3444');
 
 /*Table structure for table `detallefactura` */
@@ -62,23 +68,40 @@ CREATE TABLE `detallefactura` (
 
 /*Data for the table `detallefactura` */
 
-insert into `detallefactura` values 
-(1,1,3,17800,1),
-(2,1,6,2199,1),
-(3,1,8,30000,1),
-(4,2,7,20995,1),
-(5,3,1,3499,1),
-(6,3,2,6245,1),
-(7,3,3,17800,1),
-(8,3,4,23999,1),
-(9,3,5,1595,1),
-(10,3,6,2199,1),
-(11,3,7,20995,1),
-(12,3,8,30000,3),
-(15,5,1,3499,1),
-(16,8,1,3499,1),
-(33,13,8,30000,1),
-(34,13,6,2199,1),
+insert into `detallefactura` values 
+
+(1,1,3,17800,1),
+
+(2,1,6,2199,1),
+
+(3,1,8,30000,1),
+
+(4,2,7,20995,1),
+
+(5,3,1,3499,1),
+
+(6,3,2,6245,1),
+
+(7,3,3,17800,1),
+
+(8,3,4,23999,1),
+
+(9,3,5,1595,1),
+
+(10,3,6,2199,1),
+
+(11,3,7,20995,1),
+
+(12,3,8,30000,3),
+
+(15,5,1,3499,1),
+
+(16,8,1,3499,1),
+
+(33,13,8,30000,1),
+
+(34,13,6,2199,1),
+
 (35,13,4,23999,1);
 
 /*Table structure for table `facturas` */
@@ -94,17 +117,28 @@ CREATE TABLE `facturas` (
 
 /*Data for the table `facturas` */
 
-insert into `facturas` values 
-(1,'2019-08-28',1),
-(2,'2019-08-28',2),
-(3,'2019-08-28',3),
-(5,NULL,NULL),
-(6,NULL,NULL),
-(7,NULL,NULL),
-(8,NULL,NULL),
-(10,NULL,NULL),
-(11,'2019-08-28',1),
-(12,NULL,NULL),
+insert into `facturas` values 
+
+(1,'2019-08-28',1),
+
+(2,'2019-08-28',2),
+
+(3,'2019-08-28',3),
+
+(5,NULL,NULL),
+
+(6,NULL,NULL),
+
+(7,NULL,NULL),
+
+(8,NULL,NULL),
+
+(10,NULL,NULL),
+
+(11,'2019-08-28',1),
+
+(12,NULL,NULL),
+
 (13,'2019-08-29',1);
 
 /*Table structure for table `productos` */
@@ -121,12 +155,20 @@ CREATE TABLE `productos` (
 
 /*Data for the table `productos` */
 
-insert into `productos` values 
-(1,'Intel celeron g4900 2/2 3.1ghz',3499,1),
-(2,'Intel core i3 9100f coffeelake',6245,1),
-(3,'Intel core i5 9600k',17800,1),
-(4,'Intel core i7 8700 coffee lake',23999,1),
-(5,'ssd 120gb wd green',1595,2),
-(6,'ssd 240gb wd green sata iii 2.5',2199,2),
-(7,'nvidia geforce gtx 1660ti',20995,3),
+insert into `productos` values 
+
+(1,'Intel celeron g4900 2/2 3.1ghz',3499,1),
+
+(2,'Intel core i3 9100f coffeelake',6245,1),
+
+(3,'Intel core i5 9600k',17800,1),
+
+(4,'Intel core i7 8700 coffee lake',23999,1),
+
+(5,'ssd 120gb wd green',1595,2),
+
+(6,'ssd 240gb wd green sata iii 2.5',2199,2),
+
+(7,'nvidia geforce gtx 1660ti',20995,3),
+
 (8,'nvidia geforce rtx 2060 6gb',30000,3);

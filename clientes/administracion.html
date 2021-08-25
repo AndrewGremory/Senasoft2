@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
   <script src="../js/jquery.min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
@@ -13,9 +14,35 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../inicio.php">Hackaton</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="../inicio.php">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Clientes</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="../productos/vista.php">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cuenta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
-    <h1>Administracion de Clientes</h1>
+    <h1 class="text-center">Administracion de Clientes</h1>
     <table class="table table-striped">
       <thead>
         <tr>
@@ -30,9 +57,8 @@
       <tbody id="datos">
       </tbody>
     </table>
-    <button type="button" id="btnAgregar" class="btn btn-success">Agregar</button>
-    <hr>
-    <button type="button" id="btnFinalizar" class="btn btn-success">Finalizar</button>
+    <button type="button" id="btnAgregar" class="btn btn-success btn-lg btn-block">Agregar</button>
+    <button type="button" id="btnFinalizar" class="btn btn-secondary btn-lg btn-block">Finalizar</button>
   </div>
 
 
@@ -118,7 +144,7 @@
 
       //Boton que vuelve a la página principal
       $('#btnFinalizar').click(function () {
-        window.location = '../index.php';
+        window.location = '../inicio.php';
       });
 
       //Boton que muestra el diálogo de agregar
